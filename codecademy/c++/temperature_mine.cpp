@@ -17,6 +17,7 @@ int main() {
 	std::cout << "Choose what calculation you'd like to run today (enter 1 or 2): \n";
 	std::cout << "(1) Fahrenheit to Celsius \n";
 	std::cout << "(2) Celsius to Fahrenheit \n";
+	std::cout << "(3) Exit \n";
 	std::cin >> option;
   
 	if (option == 1) {
@@ -28,7 +29,7 @@ int main() {
   
 		std::cout << "The temp is " << tempc << " degrees Celsius.\n";
 	}
-	else
+	else if (option == 2) {
 		
 		std::cout << "Enter the temperature in Celsius: ";
 		std::cin >> tempf;
@@ -38,5 +39,9 @@ int main() {
 		std::cout << "The temp is " << tempc << " degrees Fahrenheit.\n";
 		
 	}
-  
+  	else {
+		
+		std::cout << "Goodbye!\n";
+
+	}
 }
