@@ -1,9 +1,8 @@
 #include <iostream>
 
 //Temperature calculator found in Codecademy 'Learn C: Lesson 2'
-//Things to add:
-//1. Prompt user for either Fahrenheit or Celsius
-//2. Give temperature in both the other 
+//This is my heavily modified version used to capture things that I learn
+//Please check version history to see my progress in learning!
 
 int main() {
   
@@ -19,29 +18,28 @@ int main() {
 	std::cout << "(2) Celsius to Fahrenheit \n";
 	std::cout << "(3) Exit \n";
 	std::cin >> option;
-  
-	if (option == 1) {
 	
-		std::cout << "Enter the temperature in Fahrenheit: ";
-		std::cin >> tempf;
-
-		tempc = (tempf - 32) / 1.8;
-  
-		std::cout << "The temp is " << tempc << " degrees Celsius.\n";
-	}
-	else if (option == 2) {
+	//Moving from if-else if-else structure to switch setup
+	switch(option) {
 		
-		std::cout << "Enter the temperature in Celsius: ";
-		std::cin >> tempf;
-
-		tempf = (tempc * (9 / 5)) + 32;
-  
-		std::cout << "The temp is " << tempc << " degrees Fahrenheit.\n";
-		
-	}
-  	else {
-		
-		std::cout << "Goodbye!\n";
-
+		case 1 :
+			std::cout << "Enter the temperature in Fahrenheit: ";
+			std::cin >> tempf;
+			tempc = (tempf - 32) / 1.8;
+			std::cout << "The temp is " << tempc << " degrees Celsius.\n";
+			break;
+		case 2 :
+			std::cout << "Enter the temperature in Celsius: ";
+			std::cin >> tempf;
+			tempf = (tempc * (9 / 5)) + 32;
+			std::cout << "The temp is " << tempc << " degrees Fahrenheit.\n";
+			break;
+		case 3 :
+			std::cout << "Goodbye!\n";
+			break;
+		default :
+			std::cout << "Invalid\n";
+			break;
+	
 	}
 }
