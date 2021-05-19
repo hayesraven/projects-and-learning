@@ -7,27 +7,27 @@
 
 int main() {
   
-  // Declare variables
+	// Declare variables
   
-  double tempf, tempc;
-  int option;
+	double tempf, tempc;
+	int option;
   
-  // Ask the user
+	// Ask the user
   
-  std::cout << "Choose what calculation you'd like to run today (enter 1 or 2): \n";
-  std::cout << "(1) Fahrenheit to Celsius \n";
-  std::cout << "(2) Celsius to Fahrenheit \n";
-  std::cin >> option;
+	std::cout << "Choose what calculation you'd like to run today (enter 1 or 2): \n";
+	std::cout << "(1) Fahrenheit to Celsius \n";
+	std::cout << "(2) Celsius to Fahrenheit \n";
+	std::cin >> option;
   
-  if (option == 1) {
+	if (option == 1) {
 	
-	std::cout << "Enter the temperature in Fahrenheit: ";
-	std::cin >> tempf;
+		std::cout << "Enter the temperature in Fahrenheit: ";
+		std::cin >> tempf;
 
-	tempc = (tempf - 32) / 1.8;
+		tempc = (tempf - 32) / 1.8;
   
-	std::cout << "The temp is " << tempc << " degrees Celsius.\n";
-	
+		std::cout << "The temp is " << tempc << " degrees Celsius.\n";
+	}
 	else
 		
 		std::cout << "Enter the temperature in Celsius: ";
