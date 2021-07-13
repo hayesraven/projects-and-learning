@@ -13,7 +13,7 @@ package discussions;
 
 import java.util.Scanner; //import input utility
 
-public class week3_discpost {	// begin class 
+public class if_else_discussion {	// begin class 
 	public static void main(String[] args) {	// begin main()
 		 
 		/* Declare the variables. */
