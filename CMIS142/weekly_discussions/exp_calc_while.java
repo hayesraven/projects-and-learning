@@ -13,7 +13,7 @@ package discussions;
 
 import java.util.Scanner; //import input utility
 
-public class week4_discpost {	// begin class 
+public class exp_calc_while {	// begin class 
 	public static void main(String[] args) {	// begin main()
 		 
 		/* Declare the variables. */
