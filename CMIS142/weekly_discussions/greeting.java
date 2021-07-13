@@ -12,7 +12,7 @@
 
 package discussions;
 
-public class week1_discpost {
+public class greeting {
 
     public static void main(String[] args) {
 
