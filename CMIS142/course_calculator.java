@@ -1,6 +1,6 @@
 /**
 
-* Title: Assignment 3
+* Title: Course Calculator
 
 * Name: Cameron Hayes
 
@@ -13,7 +13,7 @@ package discussions;
 
 import java.util.Scanner; // import input utility
 
-public class assignment3 { // begin class
+public class course_calculator { // begin class
 
 	public static void main(String[] args) { // begin main ()
 		
@@ -77,7 +77,7 @@ public class assignment3 { // begin class
 		
 		/* Required Output */
    		System.out.println(""); //Spacing
-   		System.out.println("Name: Cameron Hayes" + "\t" + "CMIS 141/6981" + "\t" + "Date: 10JUL2021"); // print out name, class, date
+   		System.out.println("Name: Cameron Hayes" + "\t" + "Date: 10JUL2021"); // print out name, class, date
 		
 	} // end of main()
 	
