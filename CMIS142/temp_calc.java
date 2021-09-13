@@ -1,12 +1,12 @@
 /**
 
-* Title: Week 2 Discussion
+* Title: Temp Calculator
 
 * Name: Cameron Hayes
 
 * Date: 28JUN2021
 
-* Description: 
+* Description: Temperature calculator
 
 */
 package discussions;
@@ -51,7 +51,7 @@ public class temp_calc {	// begin class
        	System.out.println("Keep up the good work!");		// exit line
        	 
        	 System.out.println(""); 
-       	 System.out.println("Name: Cameron Hayes" + "\t" + "CMIS 141/6981" + "\t" + "Date: 28JUN2021"); // print out name, class, date
+       	 System.out.println("Name: Cameron Hayes" + "\t" + "Date: 28JUN2021"); // print out name, class, date
     	
        	 /* Close out variables */
        	 
