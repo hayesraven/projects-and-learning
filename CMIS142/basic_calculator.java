@@ -1,6 +1,6 @@
 /**
 
-* Title: Assignment 2
+* Title: Simple Calculator
 
 * Name: Cameron Hayes
 
@@ -13,7 +13,7 @@ package discussions;
 
 import java.util.Scanner; // import input utility
 
-public class HayesCameron_Asgn2 { // begin class
+public class basic_calculator { // begin class
 
 	public static void main(String[] args) { // begin main ()
 		/* Declare the variables */
@@ -85,7 +85,7 @@ public class HayesCameron_Asgn2 { // begin class
 		
 		/* Required Output */
    		System.out.println(""); //Spacing
-   		System.out.println("Name: Cameron Hayes" + "\t" + "CMIS 141/6981" + "\t" + "Date: 05JUL2021"); // print out name, class, date
+   		System.out.println("Name: Cameron Hayes" + "\t" + "Date: 05JUL2021"); // print out name, date
 		
 	} // end of main()
 	
