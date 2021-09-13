@@ -1,12 +1,12 @@
 /**
 
-* Title: Week 4 Discussion
+* Title: Exponential Calculator
 
 * Name: Cameron Hayes
 
 * Date: 10JUL2021
 
-* Description: Exponential calculator
+* Description: Simple calculator that takes a number and raises it exponentially by a number from 0 to 10 based on input
 
 */
 package discussions;
