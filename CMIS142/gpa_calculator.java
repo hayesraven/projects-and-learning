@@ -1,6 +1,6 @@
 /**
 
-* Title: Assignment 1
+* Title: GPA Calculator
 
 * Name: Cameron Hayes
 
@@ -15,7 +15,7 @@ package discussions;
 
 import java.util.Scanner; // import input utility
 
-public class assignment1 { // begin class
+public class gpa_calculator { // begin class
 
 	public static void main(String[] args) { // begin main ()
 		
