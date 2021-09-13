@@ -1,12 +1,12 @@
 /**
 
-* Title: Week 3 Discussion
+* Title: If Else Discussion
 
 * Name: Cameron Hayes
 
 * Date: 05JUL2021
 
-* Description: Asks for user input to determine if they need to eat. 
+* Description: Asks for user input to determine if they need to eat, demonstrates if else competency
 
 */
 package discussions;
@@ -43,7 +43,7 @@ public class if_else_discussion {	// begin class
        			System.out.println("Wow! You ate " + hours + " hours ago! You must be hungry!");	// print first line of message
        			System.out.println("Go ahead and have a healthy meal!"); // prints second line of message
            		System.out.println(""); //Spacing
-           		System.out.println("Name: Cameron Hayes" + "\t" + "CMIS 141/6981" + "\t" + "Date: 05JUL2021"); // print out name, class, date
+           		System.out.println("Name: Cameron Hayes" + "\t" + "Date: 05JUL2021"); // print out name, class, date
        			return; // exits if statement
        			
        		}
@@ -53,7 +53,7 @@ public class if_else_discussion {	// begin class
        			System.out.println("Oh no! You last ate " + hours + " hours ago! That's not healthy!");	// print first line of message
        			System.out.println("You should consult a medical professional!"); // prints second line of message
            		System.out.println(""); //Spacing
-           		System.out.println("Name: Cameron Hayes" + "\t" + "CMIS 141/6981" + "\t" + "Date: 05JUL2021"); // print out name, class, date
+           		System.out.println("Name: Cameron Hayes" + "\t" + "Date: 05JUL2021"); // print out name, class, date
        			return; // exits else if statement
        			
        		}
@@ -62,7 +62,7 @@ public class if_else_discussion {	// begin class
        			
        			System.out.println("You just ate " + hours + " hours ago! You should wait.");	// print message
            		System.out.println(""); //Spacing
-           		System.out.println("Name: Cameron Hayes" + "\t" + "CMIS 141/6981" + "\t" + "Date: 05JUL2021"); // print out name, class, date
+           		System.out.println("Name: Cameron Hayes" + "\t" + "Date: 05JUL2021"); // print out name, class, date
        			return; // exits else statement
        			
        		}
@@ -73,7 +73,7 @@ public class if_else_discussion {	// begin class
        		
            	System.out.println("Error! You must input a number greater than 0!");	// error message
        		System.out.println(""); //Spacing
-       		System.out.println("Name: Cameron Hayes" + "\t" + "CMIS 141/6981" + "\t" + "Date: 05JUL2021"); // print out name, class, date
+       		System.out.println("Name: Cameron Hayes" + "\t" + "Date: 05JUL2021"); // print out name, class, date
        		return; // exits else statement
        		
        	}
