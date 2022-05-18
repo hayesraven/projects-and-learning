@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+        <link href="/static/styles.css" rel="stylesheet" type="text/css">
+    </head>
+<h2>Create an account</h2>
+<br>
+<form action="" method="post">
+   {{ form.hidden_tag() }}
+   <div>
+      {{ form.username(placeholder="Username",
+      style='width: 50%;
+      font-weight: bold;
+      padding: 12px 20px ;
+      margin: 8px 0;
+      border: 1px solid #000000;
+      border-radius: 4px;
+      box-sizing: border-box') }}
+      {% for error in form.username.errors %}
+      <p>{{ error }}</p>
+      {% endfor %}
+   </div>
+   <br>
+   <div>
+      {{ form.email(placeholder="Email Address",
+      style='width: 50%;
+      font-weight: bold;
+      padding: 12px 20px ;
+      margin: 8px 0;
+      border: 1px solid #000000;
+      border-radius: 4px;
+      box-sizing: border-box') }}
+      {% for error in form.email.errors %}
+      <p>{{ error }}</p>
+      {% endfor %}
+   </div>
+   <br>
+   <div>
+      {{ form.password1(placeholder="Enter password",
+      style='width: 50%;
+      font-weight: bold;
+      padding: 12px 20px ;
+      margin: 8px 0;
+      border: 1px solid #000000;
+      border-radius: 4px;
+      box-sizing: border-box') }}
+      {% for error in form.password1.errors %}
+      <p>{{ error }}</p>
+      {% endfor %}
+   </div>
+   <br>
+   <div>
+      {{ form.password2(placeholder="Confirm password",
+      style='width: 50%;
+      font-weight: bold;
+      padding: 12px 20px ;
+      margin: 8px 0;
+      border: 1px solid #000000;
+      border-radius: 4px;
+      box-sizing: border-box') }}
+      {% for error in form.password2.errors %}
+      <p>{{ error }}</p>
+      {% endfor %}
+   </div>
+   <br>
+   <div>{{ form.submit(
+      style ='background-color: #FF00EF;
+      color: white;
+      width: 50%;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px') }}
+   </div>
+   {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+         {% for category, message in messages %}
+            <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                <span>{{ message }}</span>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">×</span>
+                </button>
+            </div>
+         {% endfor %}
+      {% endif %}
+   {% endwith %}
+</form>
+<h3><a href="{{ url_for('login') }}">Already have an account? Log in here!</a></h3>
+</html>
