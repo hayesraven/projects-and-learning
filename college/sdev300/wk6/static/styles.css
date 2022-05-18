@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    background-color: #e6bfdf;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+/* h1/h2/h3 settings */
+h1 {
+    font-weight: 400;
+    font-size: 5rem;
+    margin: 1rem;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 3rem;
+    margin: 0.01rem;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-weight: 200;
+    font-size: 1.5rem;
+    margin: 0.01rem;
+}
+
+/* Unordered Lists */
+ul {
+    font-weight: 200;
+    font-size: 1.5rem;
+    text-align: center;
+    list-style-position: inside;
+}
+
+/* Ordered Lists */
+li {
+    font-weight: 200;
+    font-size: 1.5rem;
+    text-align: center;
+    list-style-position: inside;
+}
+
+/* Hyperlinks */
+a:link,
+a:visited {
+    color: #6a6767
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+/* Header */
+.header {
+    background-color: #740860;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+/* Footer */
+.footer {
+    background-color: #740860;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 3rem;
+}
