@@ -10,6 +10,6 @@ Directory
 
   codecademy: stores my code snippets from work in codecademy, primarily C++ work
 
-  java: From CMIS142, attended in Summer 2021
+  college: coursework, projects, and snippets from college, attended 2018 to 2022.
   
   codewars: these are kata I completed I was particularly proud of, primarily python
