@@ -8,6 +8,7 @@ typedef enum {
     false, true
 } bool;
 
+// Solution
 bool isPalindrome(int x){
     long int rem = 0, rev = 0;
     long int num = x;
@@ -30,8 +31,9 @@ bool isPalindrome(int x){
 
     return false;
 
-}
+}   // End of Solution
 
+// Used for testing
 int main() {
     // Set up inputs
     int x = 121;
