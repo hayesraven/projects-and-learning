@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// From Leetcode, 1. Two Sums
+
 int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     
     int * sum = calloc(sizeof(int), 2);
