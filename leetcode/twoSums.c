@@ -3,6 +3,7 @@
 
 // From Leetcode, 1. Two Sums
 
+// Solution
 int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     
     int * sum = calloc(sizeof(int), 2);
@@ -18,8 +19,9 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
         }
     }
     return 0;
-}
+}   // End of Solution
 
+// Used only for testing
 int main() {
     // Set up inputs
     int * returnSize;
