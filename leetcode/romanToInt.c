@@ -6,12 +6,13 @@
 // Solution - this desperately needs to be refactored
 int romanToInt(char * s){
     // Set up variables
-    int length = (sizeof(s)) / (sizeof(s[0]));
-    int i = 0, num = 0;
+    int i = 0;
+    int num = 0;
     char prev;
-
+    
     // Loop through input 
-    while (i < (length -1)) {
+    while (s[i] != NULL) {
+        printf("%c", s[i]);
         switch (s[i]) {
             case 'I':
                 num += 1;
